@@ -50,6 +50,8 @@ abstract class JModuleHelper extends LIB_JModuleHelperDefault
 		// Record the scope.
 		$scope = $app->scope;
 
+		$hola = 'hola';
+
 		// Set scope to component name
 		$app->scope = $module->module;
 
